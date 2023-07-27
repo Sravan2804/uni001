@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>University course page</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">    
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"> <img src="img/logo21.png" alt="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="courses.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+        </section>
+
+        <!---------Courses--------->
+        <section class="course">
+            <h1 class="heading">Our Courses</h1>
+            <p>Get down get down lobortis enim nizzle arcu. Cizzle sociis gangster i saw beyonces tizzles and my pizzle went crizzle bling bling magnis dizzle owned montes, nascetur ridiculus gangsta.</p>
+            
+            <div class="row">
+                <div class="course-col">
+                    <h3>Course1</h3>
+                    <p>Get down get down lobortis enim nizzle arcu. Cizzle sociis gangster i saw beyonces tizzles and my pizzle went crizzle bling bling magnis dizzle owned montes, nascetur ridiculus gangsta.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Course2</h3>
+                    <p>Get down get down lobortis enim nizzle arcu. Cizzle sociis gangster i saw beyonces tizzles and my pizzle went crizzle bling bling magnis dizzle owned montes, nascetur ridiculus gangsta.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Course3</h3>
+                    <p>Get down get down lobortis enim nizzle arcu. Cizzle sociis gangster i saw beyonces tizzles and my pizzle went crizzle bling bling magnis dizzle owned montes, nascetur ridiculus gangsta.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+             <!-------footer--------->
+        <section class="footer">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit amet. Ut omnis rerum qui recusandae minima in illum iusto sed doloribus animi non itaque neque. 33 porro pariatur et excepturi facere et necessitatibus doloremque.Ex dolorum minima ut debitis quia sed unde dolore! Sit veniam Quis At provident fugiat et autem maxime aut consequatur culpa quo natus corporis ut saepe delectus.</p>
+            <div class="icons">
+                <i class="fab fa-facebook" ></i>
+                <i class="fab fa-instagram" ></i>
+                <i class="fab fa-twitter" ></i>
+                <i class="fab fa-github" ></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart"></i> By Rama Sravan</p>
+        </section>
+
+        <!------javascript for toggle menu---->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
